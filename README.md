@@ -22,4 +22,4 @@ group.
 
 ## Technologies
 
-IPFS, Dat, stronglink, mediachain, webtorrents, bittorent, bitcoin, solid
+IPFS, Dat, StrongLink, MediaChain, WebTorrents, BitTorent, Bitcoin, Solid
