@@ -1,0 +1,25 @@
+The DSM paper is an action-item that emerged from the #DWebSummit 2016 Interoperability break-out session.
+
+The group had 45 minutes to discuss "The Decentralized Web & Interoperability". Since there are so many layers and starting points for this broad topic we decided to simply take a few minutes for each participant to describe their decentralization technology. We had representatives from IPFS, LibP2P, Solid (SirTBL reprezenting), Mediachain, Matrix, WebTorrents, CertBot, Interledger, as well as Cory Doctorow with interest in licensing & rights management, and Peter Van Garderen with interest in information provenance/authenticity and archival permanence.
+
+Each project participant was asked to think how they could leverage solutions from the projects around the table. We drew a dependency diagram on the whiteboard. We were pleasantly surprised to see how complimentary many of the projects were. [insert whiteboard photo]
+
+The participants' short project descriptions were captured on whiteboard as draft functional requirement statements. [insert whiteboard photo] These can be grouped under functional components from which interoperability requirements could be mapped.
+
+We briefly considered using the Open Systems Interconnection (OSI) model as a reference point but decided that its categories were too vague. We made a rough mapping to: "PIPE" layer => Transport layer => Application layer. We also decided that any corresponding layers weren't necessarily hierarchically-organized in the Decentralized system stack. We decided to refer to "domains" instead of "layers".
+
+This resulted in the following short-list:
+
+APPLICATION domain
+  user interface
+  identity
+  authentication
+  immutable consensus (see blockchain)
+  PKI Interoperability
+  rights/licensing
+  metadata/context/provenance
+
+TRANSPORT domain
+  P2P storage
+  P2P networking (e.g. peer discovery)
+  Storage incentivization/compensation
